@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="D:/ExamHallLocator/ExamHallLocator/src/main/webApp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="D:/ExamHallLocator/ExamHallLocator/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+  </Resources>
+</Context>

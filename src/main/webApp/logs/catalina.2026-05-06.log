@@ -1,0 +1,483 @@
+06-May-2026 13:08:12.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:08:12.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:08:12.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:08:12.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:08:12.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:08:12.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:08:12.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:08:12.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:08:12.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:08:12.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:08:12.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:08:12.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:08:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:08:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:08:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:08:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:08:12.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:08:12.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:08:12.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:08:12.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:08:12.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:08:12.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=53568
+06-May-2026 13:08:12.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:08:12.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:08:12.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:08:12.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:08:12.959 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [839] milliseconds
+06-May-2026 13:08:13.045 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:08:13.045 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:08:13.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:08:13.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [779] ms
+06-May-2026 13:08:13.859 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:08:13.943 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [983] milliseconds
+06-May-2026 13:12:56.942 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:12:57.248 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 13:12:57.257 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:12:57.262 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:12:59.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:12:59.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:12:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:12:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:12:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:12:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:12:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:12:59.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:12:59.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:12:59.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:12:59.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:12:59.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:12:59.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:12:59.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:12:59.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:12:59.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:12:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:12:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:12:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:12:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:12:59.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:12:59.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=61035
+06-May-2026 13:12:59.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:12:59.324 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:12:59.370 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:12:59.816 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:12:59.845 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [841] milliseconds
+06-May-2026 13:12:59.952 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:12:59.952 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:12:59.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:13:00.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [731] ms
+06-May-2026 13:13:00.717 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:13:00.806 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [961] milliseconds
+06-May-2026 13:15:04.521 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:15:04.815 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 13:15:04.823 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:15:04.826 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:15:06.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:15:06.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:15:06.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:15:06.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:15:06.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:15:06.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:15:06.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:15:06.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:15:06.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:15:06.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:15:06.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:15:06.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:15:06.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:15:06.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:15:06.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:15:06.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:15:06.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:15:06.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:15:06.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:15:06.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:15:06.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:15:06.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=58196
+06-May-2026 13:15:06.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:15:06.682 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:15:06.690 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:15:07.075 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:15:07.109 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [767] milliseconds
+06-May-2026 13:15:07.200 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:15:07.200 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:15:07.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:15:07.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [747] ms
+06-May-2026 13:15:07.974 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:15:08.059 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [950] milliseconds
+06-May-2026 13:23:42.010 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:23:42.292 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 13:23:42.301 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:23:42.307 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:23:47.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:23:47.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:23:47.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:23:47.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:23:47.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:23:47.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:23:47.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:23:47.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:23:47.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:23:47.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:23:47.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:23:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:23:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:23:47.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:23:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:23:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:23:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:23:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:23:47.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:23:47.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:23:47.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:23:47.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=49355
+06-May-2026 13:23:47.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:23:47.759 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:23:47.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:23:48.262 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:23:48.307 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [977] milliseconds
+06-May-2026 13:23:48.429 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:23:48.430 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:23:48.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:23:49.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [959] ms
+06-May-2026 13:23:49.438 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:23:49.523 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1216] milliseconds
+06-May-2026 13:28:27.932 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:28:28.213 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 13:28:28.223 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:28:28.226 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:28:35.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:28:35.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:28:35.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:28:35.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:28:35.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:28:35.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:28:35.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:28:35.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:28:35.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:28:35.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:28:35.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:28:35.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:28:35.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:28:35.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:28:35.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:28:35.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:28:35.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:28:35.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:28:35.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:28:35.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:28:35.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:28:35.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=49979
+06-May-2026 13:28:35.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:28:35.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:28:35.830 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:28:36.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:28:36.292 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [864] milliseconds
+06-May-2026 13:28:36.401 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:28:36.401 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:28:36.429 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:28:37.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [805] ms
+06-May-2026 13:28:37.242 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:28:37.358 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1066] milliseconds
+06-May-2026 13:35:13.440 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:35:13.735 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 13:35:13.744 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:35:13.747 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:41:27.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:41:27.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:41:27.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:41:27.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:41:27.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:41:27.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:41:27.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:41:27.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:41:27.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:41:27.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:41:27.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:41:27.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:41:27.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:41:27.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:41:27.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:41:27.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:41:27.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:41:27.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:41:27.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:41:27.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:41:27.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:41:27.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=60754
+06-May-2026 13:41:27.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:41:27.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:41:27.555 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:41:27.959 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:41:27.982 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [746] milliseconds
+06-May-2026 13:41:28.098 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:41:28.099 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:41:28.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:41:28.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [739] ms
+06-May-2026 13:41:28.868 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:41:28.940 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [958] milliseconds
+06-May-2026 13:48:21.059 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:48:21.335 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 13:48:21.346 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:48:21.349 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:52:51.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 13:52:51.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 13:52:51.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 13:52:51.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 13:52:51.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 13:52:51.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 13:52:51.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 13:52:51.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 13:52:51.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 13:52:51.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:52:51.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:52:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 13:52:51.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 13:52:51.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 13:52:51.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 13:52:51.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 13:52:51.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 13:52:51.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 13:52:51.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 13:52:51.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 13:52:51.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 13:52:51.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=51501
+06-May-2026 13:52:51.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 13:52:51.603 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 13:52:51.611 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 13:52:52.128 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:52:52.177 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1042] milliseconds
+06-May-2026 13:52:52.318 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 13:52:52.319 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 13:52:52.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 13:52:53.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [928] ms
+06-May-2026 13:52:53.293 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 13:52:53.393 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1214] milliseconds
+06-May-2026 14:04:35.112 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:04:35.383 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 14:04:35.392 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:04:35.396 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:04:43.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 14:04:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 14:04:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 14:04:43.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 14:04:43.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 14:04:43.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 14:04:43.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 14:04:43.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 14:04:43.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 14:04:43.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 14:04:43.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 14:04:43.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 14:04:43.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 14:04:43.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 14:04:43.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 14:04:43.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 14:04:43.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 14:04:43.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 14:04:43.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 14:04:43.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 14:04:43.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 14:04:43.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=59773
+06-May-2026 14:04:43.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 14:04:43.462 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 14:04:43.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 14:04:43.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:04:43.912 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [801] milliseconds
+06-May-2026 14:04:44.017 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 14:04:44.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 14:04:44.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 14:04:44.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [725] ms
+06-May-2026 14:04:44.782 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:04:44.859 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [945] milliseconds
+06-May-2026 14:06:10.593 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:06:10.861 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 14:06:10.871 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:06:10.874 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:12:47.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 14:12:47.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 14:12:47.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 14:12:47.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 14:12:47.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 14:12:47.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 14:12:47.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 14:12:47.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 14:12:47.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 14:12:47.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 14:12:47.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 14:12:47.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 14:12:47.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 14:12:47.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 14:12:47.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 14:12:47.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 14:12:47.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 14:12:47.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 14:12:47.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 14:12:47.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 14:12:47.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 14:12:47.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=52464
+06-May-2026 14:12:47.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 14:12:47.551 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 14:12:47.563 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 14:12:48.193 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:12:48.242 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1321] milliseconds
+06-May-2026 14:12:48.403 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 14:12:48.404 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 14:12:48.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 14:12:49.684 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [114] milliseconds.
+06-May-2026 14:12:49.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [1,285] ms
+06-May-2026 14:12:49.751 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:12:49.900 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1657] milliseconds
+06-May-2026 14:19:27.046 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:19:27.323 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 14:19:27.331 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:19:27.336 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:21:32.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 14:21:32.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 14:21:32.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 14:21:32.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 14:21:32.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 14:21:32.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 14:21:32.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 14:21:32.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 14:21:32.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 14:21:32.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 14:21:32.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 14:21:32.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 14:21:32.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 14:21:32.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 14:21:32.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 14:21:32.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 14:21:32.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 14:21:32.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 14:21:32.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 14:21:32.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 14:21:32.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 14:21:32.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=58798
+06-May-2026 14:21:32.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 14:21:32.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 14:21:32.678 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 14:21:33.051 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:21:33.080 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [770] milliseconds
+06-May-2026 14:21:33.188 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 14:21:33.188 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 14:21:33.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 14:21:33.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [683] ms
+06-May-2026 14:21:33.907 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 14:21:33.973 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [893] milliseconds
+06-May-2026 15:36:58.801 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:36:59.199 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 15:36:59.248 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:36:59.268 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:47:02.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 15:47:02.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 15:47:02.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 15:47:02.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 15:47:02.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 15:47:02.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 15:47:02.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 15:47:02.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 15:47:02.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 15:47:02.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 15:47:02.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 15:47:02.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 15:47:02.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 15:47:02.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 15:47:02.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 15:47:02.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 15:47:02.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 15:47:02.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 15:47:02.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 15:47:02.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 15:47:02.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 15:47:02.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=49982
+06-May-2026 15:47:02.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 15:47:02.990 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 15:47:03.008 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 15:47:03.540 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:47:03.578 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1113] milliseconds
+06-May-2026 15:47:03.675 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 15:47:03.676 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 15:47:03.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 15:47:04.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [937] ms
+06-May-2026 15:47:04.648 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:47:04.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1146] milliseconds
+06-May-2026 15:50:46.453 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:50:46.973 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 15:50:46.986 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:50:46.998 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:51:27.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 15:51:27.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 15:51:27.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 15:51:27.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 15:51:27.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 15:51:27.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 15:51:27.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 15:51:27.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 15:51:27.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 15:51:27.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 15:51:27.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 15:51:27.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 15:51:27.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 15:51:27.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 15:51:27.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 15:51:27.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 15:51:27.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 15:51:27.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 15:51:27.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 15:51:27.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 15:51:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 15:51:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=64278
+06-May-2026 15:51:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 15:51:27.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 15:51:27.225 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 15:51:27.706 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:51:27.738 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1001] milliseconds
+06-May-2026 15:51:27.841 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 15:51:27.842 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 15:51:27.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 15:51:28.841 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [116] milliseconds.
+06-May-2026 15:51:28.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [1,017] ms
+06-May-2026 15:51:28.886 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 15:51:28.981 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1242] milliseconds
+06-May-2026 16:10:19.495 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:10:19.883 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 16:10:19.894 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:10:19.909 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:10:26.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.22
+06-May-2026 16:10:26.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 18:29:05 UTC
+06-May-2026 16:10:26.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.22.0
+06-May-2026 16:10:26.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 16:10:26.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 16:10:26.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 16:10:26.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+06-May-2026 16:10:26.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.17+10
+06-May-2026 16:10:26.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+06-May-2026 16:10:26.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 16:10:26.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 16:10:26.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-May-2026 16:10:26.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-May-2026 16:10:26.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-May-2026 16:10:26.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-May-2026 16:10:26.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-May-2026 16:10:26.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\chint\apache-tomcat-11.0.22
+06-May-2026 16:10:26.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ExamHallLocator\ExamHallLocator\src\main\webApp
+06-May-2026 16:10:26.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\temp
+06-May-2026 16:10:26.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\logging.properties
+06-May-2026 16:10:26.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 16:10:26.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\idea-2026.1.1.win\lib\idea_rt.jar=52588
+06-May-2026 16:10:26.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 16:10:26.212 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+06-May-2026 16:10:26.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+06-May-2026 16:10:26.812 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:10:26.863 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1194] milliseconds
+06-May-2026 16:10:26.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 16:10:26.979 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.22]
+06-May-2026 16:10:27.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml]
+06-May-2026 16:10:28.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ExamHallLocator\ExamHallLocator\src\main\webApp\conf\Catalina\localhost\ExamHallLocator.xml] has finished in [1,063] ms
+06-May-2026 16:10:28.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:10:28.192 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1329] milliseconds
+06-May-2026 16:17:32.083 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:17:32.536 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 16:17:32.546 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 16:17:32.549 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
