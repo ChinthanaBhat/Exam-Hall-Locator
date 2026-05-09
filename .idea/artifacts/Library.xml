@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Library">
+    <output-path>$PROJECT_DIR$/out/artifacts/Library</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ExamHallLocator" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jakarta.mail-2.1.0-M1" />
+          <element id="library" level="project" name="jakarta.activation-api-2.1.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

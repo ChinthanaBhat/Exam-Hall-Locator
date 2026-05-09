@@ -8,75 +8,80 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.util.*;
 
-@WebServlet("/allocate")
+@WebServlet(name = "AllocationServlet", urlPatterns = {"/allocate"})
 public class AllocationServlet extends HttpServlet {
     private Map<String, Student> studentRegistry = new HashMap<>();
     private List<Room> rooms = new ArrayList<>();
 
     @Override
     public void init() throws ServletException {
+        System.out.println("Initializing Allocation System...");
         loadRooms();
         loadStudentsAndAllocate();
     }
 
     private void loadRooms() {
+        rooms.clear();
         InputStream is = getServletContext().getResourceAsStream("/WEB-INF/rooms.csv");
-        if (is == null) return;
-
+        if (is == null) {
+            System.err.println("Error: rooms.csv not found in WEB-INF");
+            return;
+        }
         try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
             String line;
-            boolean isFirstLine = true;
+            br.readLine(); // Skip Header
             while ((line = br.readLine()) != null) {
-                if (isFirstLine) { isFirstLine = false; continue; }
-                String[] parts = line.split(",");
-                if (parts.length >= 3) {
-                    String roomNo = parts[0].trim();
-                    int cap = Integer.parseInt(parts[1].trim());
-                    String floor = parts[2].trim();
-                    rooms.add(new Room(roomNo, cap, floor));
+                String[] p = line.split(",");
+                if (p.length >= 3) {
+                    rooms.add(new Room(p[0].trim(), Integer.parseInt(p[1].trim()), p[2].trim()));
                 }
             }
         } catch (Exception e) { e.printStackTrace(); }
     }
 
     private void loadStudentsAndAllocate() {
+        studentRegistry.clear();
         InputStream is = getServletContext().getResourceAsStream("/WEB-INF/students.csv");
-        if (is == null) return;
-
+        if (is == null) {
+            System.err.println("Error: students.csv not found in WEB-INF");
+            return;
+        }
         try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
             String line;
-            boolean isFirstLine = true;
+            br.readLine(); // Skip Header
             int roomIndex = 0;
 
             while ((line = br.readLine()) != null) {
-                if (isFirstLine) { isFirstLine = false; continue; }
-                String[] parts = line.split(",");
-                // Matches Index 1 (USN) and Index 2 (Name) from your CSV
-                if (parts.length >= 3 && roomIndex < rooms.size()) {
-                    String usn = parts[1].trim();
-                    String name = parts[2].trim();
-                    Student student = new Student(usn, name);
+                String[] p = line.split(",");
+                if (p.length >= 4 && roomIndex < rooms.size()) {
+                    String usn = p[1].trim();
+                    String name = p[2].trim();
+                    String email = p[3].trim();
 
+                    Student student = new Student(usn, name, email);
                     Room currentRoom = rooms.get(roomIndex);
 
-                    // If room is full, move to next room
                     if (!currentRoom.hasSpace()) {
                         roomIndex++;
                         if (roomIndex < rooms.size()) {
                             currentRoom = rooms.get(roomIndex);
-                        } else {
-                            break; // No more room capacity
-                        }
+                        } else { break; }
                     }
 
                     currentRoom.addStudent();
                     student.setAssignedRoom(currentRoom.getRoomNumber() + " (" + currentRoom.getFloor() + ")");
                     student.setBenchNumber(currentRoom.getCurrentOccupancy());
                     studentRegistry.put(usn, student);
+
+                    // Send Email
+                    EmailUtil.sendEmail(email, name, student.getAssignedRoom(), student.getBenchNumber());
                 }
             }
-            System.out.println("Total Students Allocated: " + studentRegistry.size());
-        } catch (Exception e) { e.printStackTrace(); }
+            System.out.println("Allocation Complete. Registry Size: " + studentRegistry.size());
+        } catch (Exception e) {
+            System.err.println("FATAL ERROR DURING ALLOCATION:");
+            e.printStackTrace();
+        }
     }
 
     @Override

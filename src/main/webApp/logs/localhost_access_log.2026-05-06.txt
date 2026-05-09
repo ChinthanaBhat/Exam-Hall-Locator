@@ -52,3 +52,7 @@
 0:0:0:0:0:0:0:1 - - [06/May/2026:16:10:58 +0530] "GET /ExamHallLocator/index.jsp HTTP/1.1" 200 1096
 0:0:0:0:0:0:0:1 - - [06/May/2026:16:11:06 +0530] "POST /ExamHallLocator/allocate HTTP/1.1" 200 1052
 0:0:0:0:0:0:0:1 - - [06/May/2026:16:11:09 +0530] "GET /ExamHallLocator/index.jsp HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [06/May/2026:16:51:11 +0530] "GET /ExamHallLocator HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [06/May/2026:16:51:13 +0530] "GET /ExamHallLocator/ HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [06/May/2026:16:51:24 +0530] "POST /ExamHallLocator/allocate HTTP/1.1" 200 1882
+0:0:0:0:0:0:0:1 - - [06/May/2026:16:51:35 +0530] "GET /ExamHallLocator/index.jsp HTTP/1.1" 200 1096

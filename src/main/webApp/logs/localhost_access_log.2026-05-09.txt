@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:20:15 +0530] "GET /ExamHallLocator HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:20:17 +0530] "GET /ExamHallLocator/ HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:20:17 +0530] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:20:21 +0530] "POST /ExamHallLocator/allocate HTTP/1.1" 500 5330
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:50:19 +0530] "GET /ExamHallLocator HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:50:20 +0530] "GET /ExamHallLocator/ HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:50:37 +0530] "POST /ExamHallLocator/allocate HTTP/1.1" 200 1881
+0:0:0:0:0:0:0:1 - - [09/May/2026:11:50:45 +0530] "GET /ExamHallLocator/index.jsp HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [09/May/2026:12:08:10 +0530] "GET /ExamHallLocator HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2026:12:08:12 +0530] "GET /ExamHallLocator/ HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [09/May/2026:12:08:30 +0530] "POST /ExamHallLocator/allocate HTTP/1.1" 200 1881
