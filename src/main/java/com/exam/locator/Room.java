@@ -1,23 +1,23 @@
 package com.exam.locator;
 
 public class Room {
-    private String roomNumber;
-    private int capacity;
-    private int currentOccupancy;
-    private String floor; // Added to store floor data
+    private String name;      // The room identifier (e.g., "L-101")
+    private int capacity;     // Total number of seats available
+    private String floor;
 
-    public Room(String roomNumber, int capacity, String floor) {
-        this.roomNumber = roomNumber;
+    public Room(String name, int capacity) {
+        this.name = name;
         this.capacity = capacity;
-        this.floor = floor;
-        this.currentOccupancy = 0;
+        this.floor = "";
     }
 
-    public String getRoomNumber() { return roomNumber; }
-    public String getFloor() { return floor; }
-    public int getCapacity() { return capacity; }
-    public int getCurrentOccupancy() { return currentOccupancy; }
+    // Standard Getters and Setters
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public boolean hasSpace() { return currentOccupancy < capacity; }
-    public void addStudent() { currentOccupancy++; }
+    public int getCapacity() { return capacity; }
+    public void setCapacity(int capacity) { this.capacity = capacity; }
+
+    public String getFloor() { return floor; }
+    public void setFloor(String floor) { this.floor = floor; }
 }
