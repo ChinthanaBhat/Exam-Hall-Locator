@@ -40,99 +40,86 @@ An enterprise-grade, full-stack Exam Operations Management platform designed to 
 
 ---
 
-## Database Schema Matrix
+## 🗄️ Relational Database Architecture
 
-The application handles schema initialization gracefully on startup via an automated data-definition block (`DBUtil.ensureSchema()`), which overrides index locks during updates:
+The application handles schema initialization gracefully on startup via an automated data-definition block (`DBUtil.ensureSchema()`), which safely configures indexes and constraints without interrupting active runtime transaction boundaries.
 
-```sql
--- 1. Students Registry Table
-CREATE TABLE IF NOT EXISTS Students (
-    USN VARCHAR(30) PRIMARY KEY,
-    Name VARCHAR(120) NOT NULL,
-    Email VARCHAR(160),
-    Department VARCHAR(80),
-    Semester INT DEFAULT 0
-);
-
--- 2. Infrastructure Rooms Table
-CREATE TABLE IF NOT EXISTS Rooms (
-    RoomID VARCHAR(60) PRIMARY KEY,
-    Capacity INT NOT NULL,
-    Floor VARCHAR(80)
-);
-
--- 3. Scheduled Examination Sessions Table
-CREATE TABLE IF NOT EXISTS Exams (
-    ExamID INT AUTO_INCREMENT PRIMARY KEY,
-    Subject VARCHAR(160) NOT NULL,
-    ExamDate DATE NOT NULL,
-    ExamTime VARCHAR(40) NOT NULL,
-    Semester INT DEFAULT 0,
-    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- 4. Unified Seat Allocations Transaction Matrix
-CREATE TABLE IF NOT EXISTS Seat_Allocations (
-    AllocationID INT AUTO_INCREMENT PRIMARY KEY,
-    ExamID INT NULL,
-    USN VARCHAR(30) NOT NULL,
-    RoomID VARCHAR(60) NOT NULL,
-    BenchNumber INT NOT NULL,
-    SeatPosition INT DEFAULT 1,
-    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE INDEX uniq_allocation_exam_usn (ExamID, USN),
-    FOREIGN KEY (ExamID) REFERENCES Exams(ExamID) ON DELETE CASCADE
-);
+### 📐 Entity-Relationship Diagram (ERD)
 
 ```mermaid
 erDiagram
-    Admins {
-        varchar AdminID PK
-        varchar Username
-        varchar Email
-    }
-    Exams {
-        varchar ExamCode PK
-        varchar ExamName
-        varchar Department
-    }
-    Rooms {
-        varchar RoomID PK
-        int Floor
-        int Capacity
-    }
-    Teachers {
-        varchar TeacherID PK
-        varchar TeacherName
-        varchar TeacherEmail
-        bigint TeacherContact
-        varchar Department
-    }
     Students {
         varchar USN PK
         varchar Name
         varchar Email
-        bigint Phone
         varchar Department
+        int Semester
     }
-    Exam_Schedules {
-        varchar ScheduleID PK
-        varchar ExamCode FK
+    Rooms {
+        varchar RoomID PK
+        int Capacity
+        varchar Floor
+    }
+    Exams {
+        int ExamID PK
+        varchar Subject
         date ExamDate
-        time StartTime
-        time EndTime
-        varchar RoomID FK
-        varchar InvigilatorID FK
+        varchar ExamTime
+        int Semester
+        timestamp CreatedAt
     }
     Seat_Allocations {
-        varchar AllocationID PK
-        varchar ScheduleID FK
-        int BenchNumber
+        int AllocationID PK
+        int ExamID FK
         varchar USN FK
+        varchar RoomID FK
+        int BenchNumber
+        int SeatPosition
+        timestamp CreatedAt
     }
 
-    Exams ||--o{ Exam_Schedules : "defines"
-    Rooms ||--o{ Exam_Schedules : "hosts"
-    Teachers ||--o{ Exam_Schedules : "invigilates"
-    Exam_Schedules ||--o{ Seat_Allocations : "contains"
+    Exams ||--o{ Seat_Allocations : "maps to"
     Students ||--o{ Seat_Allocations : "assigned to"
+    Rooms ||--o{ Seat_Allocations : "holds"
+
+```
+#Database Schema Matrix
+```sql
+-- 1. Students Registry Table
+CREATE TABLE IF NOT EXISTS Students (
+USN VARCHAR(30) PRIMARY KEY,
+Name VARCHAR(120) NOT NULL,
+Email VARCHAR(160),
+Department VARCHAR(80),
+Semester INT DEFAULT 0
+);
+
+-- 2. Infrastructure Rooms Table
+CREATE TABLE IF NOT EXISTS Rooms (
+RoomID VARCHAR(60) PRIMARY KEY,
+Capacity INT NOT NULL,
+Floor VARCHAR(80)
+);
+
+-- 3. Scheduled Examination Sessions Table
+CREATE TABLE IF NOT EXISTS Exams (
+ExamID INT AUTO_INCREMENT PRIMARY KEY,
+Subject VARCHAR(160) NOT NULL,
+ExamDate DATE NOT NULL,
+ExamTime VARCHAR(40) NOT NULL,
+Semester INT DEFAULT 0,
+CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 4. Unified Seat Allocations Transaction Matrix
+CREATE TABLE IF NOT EXISTS Seat_Allocations (
+AllocationID INT AUTO_INCREMENT PRIMARY KEY,
+ExamID INT NULL,
+USN VARCHAR(30) NOT NULL,
+RoomID VARCHAR(60) NOT NULL,
+BenchNumber INT NOT NULL,
+SeatPosition INT DEFAULT 1,
+CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+UNIQUE INDEX uniq_allocation_exam_usn (ExamID, USN),
+FOREIGN KEY (ExamID) REFERENCES Exams(ExamID) ON DELETE CASCADE
+); '''
