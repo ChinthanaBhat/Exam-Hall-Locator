@@ -83,3 +83,56 @@ CREATE TABLE IF NOT EXISTS Seat_Allocations (
     UNIQUE INDEX uniq_allocation_exam_usn (ExamID, USN),
     FOREIGN KEY (ExamID) REFERENCES Exams(ExamID) ON DELETE CASCADE
 );
+
+```mermaid
+erDiagram
+    Admins {
+        varchar AdminID PK
+        varchar Username
+        varchar Email
+    }
+    Exams {
+        varchar ExamCode PK
+        varchar ExamName
+        varchar Department
+    }
+    Rooms {
+        varchar RoomID PK
+        int Floor
+        int Capacity
+    }
+    Teachers {
+        varchar TeacherID PK
+        varchar TeacherName
+        varchar TeacherEmail
+        bigint TeacherContact
+        varchar Department
+    }
+    Students {
+        varchar USN PK
+        varchar Name
+        varchar Email
+        bigint Phone
+        varchar Department
+    }
+    Exam_Schedules {
+        varchar ScheduleID PK
+        varchar ExamCode FK
+        date ExamDate
+        time StartTime
+        time EndTime
+        varchar RoomID FK
+        varchar InvigilatorID FK
+    }
+    Seat_Allocations {
+        varchar AllocationID PK
+        varchar ScheduleID FK
+        int BenchNumber
+        varchar USN FK
+    }
+
+    Exams ||--o{ Exam_Schedules : "defines"
+    Rooms ||--o{ Exam_Schedules : "hosts"
+    Teachers ||--o{ Exam_Schedules : "invigilates"
+    Exam_Schedules ||--o{ Seat_Allocations : "contains"
+    Students ||--o{ Seat_Allocations : "assigned to"
